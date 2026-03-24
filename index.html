@@ -14,7 +14,7 @@
       >
         <nav class="flex items-center justify-between w-[45%]">
           <img src="./image/Vector (7).png" alt="" />
-          <ul class="flex items-center gap-3">
+          <ul class="lg:flex items-center gap-3 hidden">
             <li>Services</li>
             <li>Portfolio</li>
             <li>Email Marketing Audit</li>
@@ -33,7 +33,7 @@
         class="flex items-start flex-col justify-center"
       >
         <nav class="flex flex-col items-start gap-3 max-w-[1200px] m-auto py-5">
-          <h1 class="text-[70px] w-[70%] font-bold">
+          <h1 class="lg:text-[70px] text-[30px] w-[70%] font-bold">
             <span class="text-[red]">Boost</span> your email marketing results!
           </h1>
           <p class="text-[20px]">
@@ -46,7 +46,7 @@
       </section>
       <hr />
       <section
-        class="flex items-center justify-between max-w-[1200px] m-auto py-5"
+        class="flex flex-wrap lg:flex-nowrap gap-5 items-center justify-between max-w-[1200px] m-auto py-5"
       >
         <div>
           <img
@@ -102,12 +102,12 @@
           background-position: center;
           height: 70vh;
         "
-        class="flex items-start flex-col justify-center"
+        class="lg:flex items-start flex-col justify-center"
       >
         <div
-          class="w-[1200px] m-auto bg-[black] rounded-xl text-[white] p-16 flex items-center justify-around"
+          class="lg:w-[1200px] w-[90%] m-auto bg-[black] rounded-xl text-[white] p-16 lg:flex items-center justify-around"
         >
-          <aside class="text-[70px] w-[50%]">
+          <aside class="lg:text-[70px] text-[40px] lg:w-[50%]">
             <h1>We are here to <span class="text-[red]">help</span> when:</h1>
           </aside>
           <aside>
@@ -121,7 +121,7 @@
           </aside>
         </div>
       </section>
-      <section class="max-w-[1200px] m-auto flex items-center my-[60px]">
+      <section class="max-w-[1200px] m-auto lg:flex items-center my-[60px]">
         <aside>
           <img src="./image/Frame 18.png" alt="" />
         </aside>
@@ -160,9 +160,11 @@
         </aside>
       </section>
       <section>
-        <div class="w-[1200px] m-auto bg-[black] rounded-xl text-[white] p-16">
-          <nav class="flex items-center justify-around">
-            <aside class="text-[65px] font-bold">
+        <div
+          class="lg:w-[1200px] w-[90%] m-auto bg-[black] rounded-xl text-[white] p-16"
+        >
+          <nav class="lg:flex items-center justify-around">
+            <aside class="lg:text-[65px] text-[25px] font-bold">
               <h1>
                 We <span class="text-[red]">take care</span> <br />of all your
                 email <br />
@@ -180,13 +182,15 @@
               </ul>
             </aside>
           </nav>
-          <nav class="flex items-center justify-around">
-            <aside class="w-[48%] border border-r-white border-black">
+          <nav class="lg:flex items-center justify-around">
+            <aside
+              class="lg:w-[48%] border lg:border-r-white lg:border-b-black border-b-white border-black"
+            >
               <span class="text-[red]">For midsize businesses</span>, we become
               your budget-friendly email marketing team, ensuring revenue from
               emails at a fraction of in-house costs. Discover how it works!
             </aside>
-            <aside class="w-[48%]">
+            <aside class="lg:w-[48%]">
               <span class="text-[red]">For midsize businesses</span>, we become
               your budget-friendly email marketing team, ensuring revenue from
               emails at a fraction of in-house costs. Discover how it works!
@@ -194,11 +198,13 @@
           </nav>
         </div>
       </section>
-      <section class="max-w-[1200px] m-auto flex items-center my-16 relative">
-        <aside class="">
-          <h1 class="text-[80px] font-bold">Testimonials</h1>
+      <section
+        class="max-w-[1200px] m-auto flex lg:flex-row flex-col justify-center items-center my-16 relative"
+      >
+        <aside class="flex flex-col items-center lg:items-start">
+          <h1 class="lg:text-[80px] text-[40px] font-bold">Testimonials</h1>
           <div
-            class="flex items-start w-[50%] gap-5 shadow-2xl p-5 rounded-2xl my-4"
+            class="flex items-start lg:w-[50%] w-[90%] gap-5 shadow-2xl p-5 rounded-2xl my-4"
           >
             <img src="./image/Frame (8).png" alt="" />
             <nav class="flex flex-col gap-3">
@@ -214,7 +220,7 @@
             </nav>
           </div>
           <div
-            class="flex items-start w-[50%] gap-5 shadow-2xl p-5 rounded-2xl"
+            class="flex items-start lg:w-[50%] w-[90%] gap-5 shadow-2xl p-5 rounded-2xl"
           >
             <img src="./image/Frame (8).png" alt="" />
             <nav class="flex flex-col gap-3">
@@ -230,13 +236,15 @@
             </nav>
           </div>
         </aside>
-        <aside class="absolute right-0 w-[600px]">
+        <aside class="lg:absolute right-0 lg:w-[600px] w-[300px]">
           <img src="./image/Vector 2.png" alt="" />
         </aside>
       </section>
       <section>
-        <div class="w-[1200px] m-auto bg-[black] rounded-xl text-[white] p-16">
-          <nav class="flex items-center justify-around">
+        <div
+          class="lg:w-[1200px] m-auto bg-[black] rounded-xl text-[white] lg:p-16 p-5 w-[90%]"
+        >
+          <nav class="lg:flex-row flex flex-col  lg:items-center justify-around gap-5">
             <aside class="text-[65px] font-bold">
               <h1>
                 Subscribe <br />to <span class="text-[red]">L.U.Y.E</span>
@@ -245,7 +253,7 @@
                 Level Up Your Email Newsletter
               </p>
             </aside>
-            <aside class="w-[50%] text-[15px]">
+            <aside class="lg:w-[50%] text-[15px]">
               <nav>
                 <p>
                   Our aim is to level up your email marketing to world-class
@@ -280,23 +288,25 @@
       </section>
     </main>
     <footer class="bg-[black] text-white py-20 mt-10">
-      <section class="max-w-[1200px] m-auto flex items-center justify-between text-[15px]">
-        <aside class="flex gap-8">
+      <section
+        class="max-w-[1200px] m-auto lg:flex-row flex flex-col items-center justify-between text-[15px]"
+      >
+        <aside class="flex lg:flex-row flex-col items-center lg:gap-8">
           <img src="./image/manifold_logotype.png" alt="" />
-      <nav>
-        <p>Services</p>
-        <p>About Us</p>
-      </nav>
-      <nav>
-        <p>Email Marketing Audit</p>
-        <p>Portfolio</p>
-      </nav>
-      <nav>
-        <p>Blog</p>
-        <p>Privacy Policy</p>
-      </nav>
+          <nav class="text-center">
+            <p>Services</p>
+            <p>About Us</p>
+          </nav>
+          <nav class="text-center">
+            <p>Email Marketing Audit</p>
+            <p>Portfolio</p>
+          </nav>
+          <nav class="text-center">
+            <p>Blog</p>
+            <p>Privacy Policy</p>
+          </nav>
         </aside>
-      <img src="./image/Frame 30.png" alt="" />
+        <nav><img src="./image/Frame 30.png" alt="" /></nav>
       </section>
     </footer>
   </body>
